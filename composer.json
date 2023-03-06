@@ -1,0 +1,33 @@
+{
+    "name": "perfect-code/module-mailtrap",
+    "description": "Integration with mail the service Mailtrap",
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "*",
+        "magento/magento-composer-installer": "*"
+    },
+    "suggest": {
+
+    },
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": [
+
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PerfectCode\\Mailtrap\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "PerfectCode/Mailtrap"
+            ]
+        ]
+    }
+}
